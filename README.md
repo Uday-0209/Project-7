@@ -21,3 +21,12 @@ In the above images you can see the condtion of the system vibration and conditi
 ![producer and consumer vibration ml single channel backend1](https://github.com/user-attachments/assets/37ef1b8e-3c6d-4bb2-bd36-47e33f211e41)
 
 ![producer and consumer vibration ml single channel backend2](https://github.com/user-attachments/assets/6e50d316-daa6-4cbc-b6bd-524240445f1f)
+I used the Producer and Consumer loop to ensure smooth and undisturbed data flow. This method was employed to introduce parallelism. The producer continuously acquires vibration data and displaying it , while consumer loop will be focused in data processing and ML prediction.
+
+The below program does same work, but this program takes the input of all three channels and go for predition.The ML model also trained using the 3 channel data. 
+![producer consumer ml 3ch](https://github.com/user-attachments/assets/45a08ee8-8508-4d5a-a295-859e03df0774)
+
+Here in this frontend the condtions predicted and displayed
+
+![3ch back end](https://github.com/user-attachments/assets/a8b13ef6-b7f6-406e-a734-df22fc6eb4d1)
+![3ch backend 2](https://github.com/user-attachments/assets/2a6b6969-92cd-4549-9aec-25c2c1325cc7)
